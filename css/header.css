@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding: 0 20px;
+}
+
+.header > .navigation{
+    background-color:lightblue;
+}
+.navigation > a{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: lightgreen;
+}
+/* 
+    TODO: 스크롤하면 글자 색 바뀌도록 나중에 조정해야함
+*/

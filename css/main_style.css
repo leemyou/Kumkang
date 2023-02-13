@@ -1,0 +1,32 @@
+:root{
+    --color-blue: #1080ff;
+    --color-blue-hover: #2d8fff;
+    --color-red: #ec3636;
+    --color-red-hover: #ff5757;
+
+    --color-gray50 : #f7f8f9;
+    --color-gray100: #e8ebed;
+    --color-gray200: #c9cdd2;
+    --color-gray400: #9ea4aa;
+    --color-gray500: #72787f;
+    --color-gray600: #454c53;
+    --color-gray700: #33383d;
+    --color-gray800: #26282b;
+    --color-gray900: #1b1d1f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul, li{
+    list-style-type: none;
+}
