@@ -1,0 +1,108 @@
+/* 
+    product section
+*/
+.product-section{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    background-color: var(--color-gray50);
+}
+
+/* title */
+.product-section > h1{
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* link */
+.product-section > a{
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    padding: 10px 15px;
+
+    color: var(--color-gray900);
+    font-size: 14pt;
+    transition: .2s;
+}
+.product-section > a:hover{
+    color: var(--color-blue);
+    text-decoration: underline;
+}
+
+/* box wrap */
+.product-section > section{
+    max-width: 1500px;
+    height: 60vh;
+    width: 80%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.product-wrap > .product-box{
+    width: 30%;
+    height: 100%;
+
+    box-shadow: 0px 10px 30px 5px var(--color-gray200);
+
+    position: relative;
+}
+
+.img-wrap{
+    position: relative;
+    width: 100%;
+    height: 70%;
+
+    overflow: hidden;
+}
+.img-wrap > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+
+.product-box > h2,
+.product-box > p
+{
+    margin: 0 0 0 20px;
+}
+.product-box > h2{
+    font-size: 20pt;
+    margin-top: 10px;
+}
+
+.product-box > a{
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+    
+    color: var(--color-blue-hover);
+    transition: .2s;
+}
+.product-box > a:hover{
+    color: var(--color-blue);
+    text-decoration: underline;
+}
+
+
+.product-wrap > .product-box:first-child > .img-wrap > img{
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -43%);
+}

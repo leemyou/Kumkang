@@ -1,0 +1,23 @@
+/*
+    modal style
+*/
+
+.modal-body{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.modal-body > div{
+    width: 45%;
+    margin: 0 auto;
+}
+.modal-body > div:first-child{
+    background-color: var(--color-gray100)
+}
+.modal-body > .product-img > img{
+    width: 100%;
+}
+
+.product-info > p{
+    margin-top: 5px;
+}

@@ -1,0 +1,105 @@
+@import url(./main_style.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+/* modal */
+@import url(./page_style/modalStyle.css);
+
+/* 
+    sub-page 
+    product mall
+*/
+
+/* title */
+body > h1{
+    width: 100%;
+    text-align: center;
+    margin: 100px auto 25px auto;
+}
+
+/* navigation section */
+.section-nav{
+    /* background-color: red; */
+    font-size: 1.1rem;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+.section-nav > a{
+    color:var(--color-gray800);
+    
+    transition: .2s;
+}
+.section-nav > a:hover{
+    color: var(--color-blue);
+}
+.section-nav > a:first-child{
+    margin-right: 80px;
+}
+
+/* section 공통속성 */
+section{
+    width: 80%;
+    max-width: 1200px;
+
+    margin: 50px auto;
+}
+section > h1{
+    font-weight: 500;
+
+    margin-bottom: 5px;
+}
+
+/* section */
+.product-wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    gap: 10px 20px;
+}
+
+.img-wrap{
+    width: 100%;
+    height: 190px;
+    
+    position: relative;
+    
+    background-color: var(--color-gray100);
+    overflow: hidden;
+}
+.img-wrap > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+
+.product-wrap >button{
+    border: none;
+    background-color: var(--color-gray50);
+    text-align: left;
+
+    transition: .2s;
+}
+.product-wrap >button:hover{
+    box-shadow: 0px 3px 10px 5px var(--color-gray200);
+    transform: scale(1.01);
+}
+
+button > h3{
+    margin: 10px 0 0 10px;
+    font-size: 1.4rem;
+}
+button > p{
+    margin: 0 0 13px 10px;
+    font-size: .89rem;
+}
+
+
+#IceMaker .img-wrap > img{
+    width: 70%;
+
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}

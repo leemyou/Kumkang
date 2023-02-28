@@ -1,0 +1,39 @@
+/* 
+    location section
+*/
+
+.location-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    background-color: var(--color-gray50);
+}
+
+/* title */
+.location-section > .text-box{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    text-align: center;
+}
+.text-box >h1{
+    font-weight: bold;
+    margin: 0;
+}
+.text-box > p{
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.location-section > .map-view{
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -30%);
+    
+}
